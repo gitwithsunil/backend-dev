@@ -304,6 +304,12 @@
 // console.log(str.charAt(9))//l
 // console.log(str.charAt(0))//h
 
+// includes() method is used to check whether a string contains a specific substring or not. it returns true if the substring is found in the string, otherwise it returns false.
+
+// let str = "hello world"
+// console.log(str.includes("world"))//true
+// console.log(str.includes("javascript"))//false   
+
 
 
 
