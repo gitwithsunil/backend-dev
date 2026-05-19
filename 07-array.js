@@ -118,4 +118,3 @@
 //2async & wait -> async is a keyword used to declare an asynchronous function, which is a function that can perform asynchronous operations and return a promise. The await keyword is used inside an async function to pause the execution of the function until a promise is resolved. This allows you to write asynchronous code in a more synchronous and readable manner. When the await keyword is used, the function will wait for the promise to resolve before continuing with the next line of code.
 
 
-
