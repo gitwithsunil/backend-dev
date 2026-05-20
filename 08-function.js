@@ -9,29 +9,23 @@
 
 //1.create a function using "function" keyword that takes a string as an argument & return the number of vowels in that string.(TCS interview question )
 
-function countVowels(str){
-    let count = 0
-    let vowels = "aeiouAEIOU"
-    for (let i=0; i<str.length; i++){
-        if (vowels.includes(str[i])){
-            count++
-        }
+// function countVowels(str){
+//     let count = 0
+//     let vowels = "aeiouAEIOU"
+//     for (let i=0; i<str.length; i++){
+//         if (vowels.includes(str[i])){
+//             count++
+//         }
 
-    }
-    return count
-}
-let inputString = "Hello World"
-let vowelCount = countVowels(inputString)
-console.log(`Number of vowels in "${inputString}":`,vowelCount)     
-
-
+//     }
+//     return count
+// }
+// let inputString = "Hello World"
+// let vowelCount = countVowels(inputString)
+// console.log(`Number of vowels in "${inputString}":`,vowelCount)     
 
 
-
-
-
-
-
+// for a given array of marks . print the square of each mark 
 
 
 
