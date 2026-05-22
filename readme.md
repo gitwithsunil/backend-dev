@@ -46,7 +46,7 @@ function syncFunction(){
 
 
 - eg:(ASYNC)
-
+```
 console.log("one")
 console.log("two")
 setTime(() => {
@@ -54,6 +54,13 @@ setTime(() => {
 },4000)                  // 4000 ms = 4s
 console.log("four")
 console.log("five")
-
+```
 o/p -> one,two,four,five,three
+
+
+callback function in JavaScript
+- A callback function is a function that is passed as an argument to another function and is executed after a certain event or condition is met.
+- For example, when making an asynchronous request to a server, a callback function can be used to handle the response once it is received. 
+- Callback functions are commonly used in JavaScript for handling events, performing asynchronous operations, and implementing higher-order functions. 
+- They allow developers to write more flexible and reusable code by enabling functions to be passed around as first-class citizens in JavaScript.  
 
