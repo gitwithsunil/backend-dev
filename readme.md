@@ -63,6 +63,11 @@ callback function in JavaScript
 - For example, when making an asynchronous request to a server, a callback function can be used to handle the response once it is received. 
 - Callback functions are commonly used in JavaScript for handling events, performing asynchronous operations, and implementing higher-order functions. 
 - They allow developers to write more flexible and reusable code by enabling functions to be passed around as first-class citizens in JavaScript.  
+callback hell
+- Callback hell refers to a situation where there are multiple nested callbacks in JavaScript, making the code difficult to read and maintain. This often occurs when dealing with asynchronous operations, such as making API calls or handling events. 
+- The code can become deeply nested and hard to follow, leading to confusion and potential errors. To avoid callback hell, developers can use techniques such as Promises or async/await to handle asynchronous operations in a more structured and readable way.  
+
+
 
 
 promise in js
