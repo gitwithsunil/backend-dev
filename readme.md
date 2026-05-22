@@ -31,7 +31,7 @@ sync in JS:
 
 - eg:
 
-
+```
 function syncFunction(){
      console.log("This is a synchronous function");   
      for (let i=0; i<1000000000; i++){
@@ -42,3 +42,4 @@ function syncFunction(){
  console.log("Before calling synchronous function");
  syncFunction();
  console.log("After calling synchronous function");   
+ ```
