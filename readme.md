@@ -64,3 +64,10 @@ callback function in JavaScript
 - Callback functions are commonly used in JavaScript for handling events, performing asynchronous operations, and implementing higher-order functions. 
 - They allow developers to write more flexible and reusable code by enabling functions to be passed around as first-class citizens in JavaScript.  
 
+
+promise in js
+- A promise is a JavaScript object that represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
+- A promise can be in one of three states: pending, fulfilled, or rejected. When a promise is created, it is in the pending state. If the asynchronous operation completes successfully, the promise is fulfilled with a value. If the operation fails, the promise is rejected with a reason (error).
+- Promises provide a way to handle asynchronous operations in a more manageable and readable way compared to traditional callback functions. They allow developers to chain multiple asynchronous operations together and handle errors more effectively. 
+- Promises are commonly used in JavaScript for tasks such as fetching data from APIs, handling user input, and performing animations.      
+
