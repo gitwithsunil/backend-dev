@@ -71,3 +71,26 @@ promise in js
 - Promises provide a way to handle asynchronous operations in a more manageable and readable way compared to traditional callback functions. They allow developers to chain multiple asynchronous operations together and handle errors more effectively. 
 - Promises are commonly used in JavaScript for tasks such as fetching data from APIs, handling user input, and performing animations.      
 
+
+-- 3 states of promise in js
+- 1.pending: The initial state of a promise, where the operation is still in progress and the outcome is not yet determined.
+- 2.fulfilled: The state of a promise when the operation has completed successfully, and the promise has a resolved value.
+- 3.rejected: The state of a promise when the operation has failed, and the promise has a reason for the failure (usually an error message).
+eg:
+```
+let promise = new Promise((resolve, reject) => {
+     let success = true; // Simulating a successful operation
+     if (success) {
+         resolve("Operation was successful!"); // Resolving the promise with a success message    
+     } else {
+         reject("Operation failed!"); // Rejecting the promise with an error message
+     }
+ });
+ promise.then((message) => {
+     console.log(message); // This will run if the promise is resolved successfully
+ }).catch((error) => {
+     console.error(error); // This will run if the promise is rejected
+ });
+```
+
+
