@@ -69,6 +69,11 @@
 // it is also a global object that provides access to the browser's features and allows developers to manipulate the browser window, such as opening new windows, resizing the window, and handling events. 
 // The window object also provides methods for displaying alerts, prompts, and confirmations to the user.
 
+// Event listner in js
+// An event listener is a function that is called when a specific event occurs on an element. For example, when a user clicks a button, an event listener can be used to execute a function that performs a specific action in response to the click event. 
+// Event listeners can be added to elements using the addEventListener() method, which takes two arguments: the type of event to listen for (e.g., "click", "mouseover", "keydown") and the function to execute when the event occurs. 
+// Event listeners are essential for creating interactive web pages and applications, as they allow developers to respond to user actions and create dynamic content.
+
 
 
 
