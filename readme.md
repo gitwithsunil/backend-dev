@@ -29,7 +29,7 @@ sync in JS:
 - Asynchronous : In contrast, asynchronous code allows for non-blocking behavior. When an asynchronous function is called, the program can continue executing other lines of code while waiting for the asynchronous function to complete. This is typically achieved using callbacks, promises, or async/await syntax. Asynchronous code is particularly useful for tasks that involve I/O operations, such as fetching data from a server or reading files, as it allows the program to remain responsive while waiting for these operations to complete. 
 
 
-- eg:
+- eg: (SYNCRONOUS)
 
 ```
 function syncFunction(){
@@ -43,3 +43,17 @@ function syncFunction(){
  syncFunction();
  console.log("After calling synchronous function");   
  ```
+
+
+- eg:(ASYNC)
+
+console.log("one")
+console.log("two")
+setTime(() => {
+    console.log("three")
+},4000)                  // 4000 ms = 4s
+console.log("four")
+console.log("five")
+
+o/p -> one,two,four,five,three
+
