@@ -311,6 +311,16 @@
 // console.log(str.includes("javascript"))//false   
 
 
+//write a function to check whether a string is palindrome or not. a palindrome is a string that reads the same backward as forward. for example, "madam" is a palindrome, but "hello" is not.
+
+// function isPalindrome(str){  
+//     let reversedStr = str.split("").reverse().join("")
+//     return str === reversedStr
+// }
+// let inputString = "madam"
+// console.log(isPalindrome(inputString))//true
+// inputString = "hello"
+// console.log(isPalindrome(inputString))//false    
 
 
 
