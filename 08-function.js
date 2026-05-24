@@ -73,6 +73,11 @@
 // An event listener is a function that is called when a specific event occurs on an element. For example, when a user clicks a button, an event listener can be used to execute a function that performs a specific action in response to the click event. 
 // Event listeners can be added to elements using the addEventListener() method, which takes two arguments: the type of event to listen for (e.g., "click", "mouseover", "keydown") and the function to execute when the event occurs. 
 // Event listeners are essential for creating interactive web pages and applications, as they allow developers to respond to user actions and create dynamic content.
+// example of event listener
+// let button = document.getElementById("myButton") // it will select the element with id "myButton"
+// button.addEventListener("click", function() { // it will add a click event listener to the selected element
+//     alert("Button clicked!") // it will display an alert when the button is clicked
+// })
 
 
 
