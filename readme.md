@@ -97,5 +97,6 @@ let promise = new Promise((resolve, reject) => {
      console.error(error); // This will run if the promise is rejected
  });
 ```
+-- some examples added to all 3 files : var , arr and function file 
 
 
