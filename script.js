@@ -1,16 +1,7 @@
-// Selecting first button
-let btn = document.querySelector("#btn");
-
-// Single click event
-btn.onclick = () => {
-    console.log("btn was clicked 1 time");
-};
-
-
-// Selecting second button
-let btn1 = document.querySelector("#btn1");
-
-// Double click event
-btn1.ondblclick = () => {
-    console.log("btn was clicked 2 times");
-};
+function sum(a,b){
+    console.log(a+b);
+}
+function calc(a,b,sumCallback){
+    sumCallback(a,b)
+}
+calc(1,2,sum)
