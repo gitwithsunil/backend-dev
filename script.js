@@ -48,8 +48,8 @@ getData(1)
                             })
                     })
             })
-        }
-        )
+        
+    })
 
 // .then() & .catch() are used to handle the resolved and rejected states of a promise respectively. They allow you to chain multiple asynchronous operations together and handle errors gracefully.    
 
@@ -68,3 +68,4 @@ promise.then((res) => {
 promise.catch((err) => {
     console.log("promise rejected", err)
 })
+
