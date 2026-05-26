@@ -7,15 +7,15 @@
 // calc(1,2,sum) // function passed as an argument to another function
 
 // ------
-function getData(dataID , generation){
-    setTimeout(() => {
-        console.log("data", dataID)
-        if (getNextData){
-            getNextData():
-        }
-    }, 2000)
-}
-getData(1)
+// function getData(dataID , generation){
+//     setTimeout(() => {
+//         console.log("data", dataID)
+//         if (getNextData){
+//             getNextData():
+//         }
+//     }, 2000)
+// }
+// getData(1)
 
 //callback hell ->>
 
