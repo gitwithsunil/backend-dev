@@ -19,19 +19,52 @@
 
 //callback hell ->>
 
-console.log("getting data-1.....")
-getData(1, () => { 
-    console.log("getting data-2.....")
-    getData(2, () => {
-        console.log("getting data-3.....")
-        getData(3, () => {
-            console.log("getting data-4.....")
-            getData(4, () => {
-                console.log("getting data-5.....")  
-                getData(5)
+// console.log("getting data-1.....")
+// getData(1, () => { 
+//     console.log("getting data-2.....")
+//     getData(2, () => {
+//         console.log("getting data-3.....")
+//         getData(3, () => {
+//             console.log("getting data-4.....")
+//             getData(4, () => {
+//                 console.log("getting data-5.....")  
+//                 getData(5)
 
-        })
+//         })
+//     })
+// })
+
+// })
+
+getData(1)
+    .then(() => {
+        return getData(2
+            .then(() => {
+                return getData(3)
+                    .then(() => {  
+                        return getData(4)
+                            .then(() => {
+                                return getData(5)
+                            })
+                    })
+            })
+        }
+        )
+
+// .then() & .catch() are used to handle the resolved and rejected states of a promise respectively. They allow you to chain multiple asynchronous operations together and handle errors gracefully.    
+
+const getPromise = () => {
+    return new Promise((resolve, reject) => {
+        console.log("i am a promise")
+        //resolve("sucess")
+        reject("error")
     })
-})
+}
 
+let promise = getPromise()
+promise.then((res) => {
+    console.log("promisefulfilled", res)
+})
+promise.catch((err) => {
+    console.log("promise rejected", err)
 })
